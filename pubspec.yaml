@@ -1,0 +1,21 @@
+name: my_flutter_app
+description: A new Flutter project
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Ensure this line is updated to indicate null safety support
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path:  ^1.8.3
+  sqflite: ^2.0.2
+  url_launcher: ^6.2.3
+  google_maps_flutter: ^2.4.0
+  google_maps_flutter_web: ^0.5.4+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
